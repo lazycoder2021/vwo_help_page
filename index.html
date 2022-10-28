@@ -1,0 +1,565 @@
+﻿
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <!-- v21860 -->
+
+    <title>Using the VWO Insights Goals Dashboard &ndash; VWO</title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="" />
+
+    <meta name="description" content="The VWO Goals dashboard enables you to manage and track the progress of all your goals. To access the Goals dashboard, go to INSIGHTS..." />
+    <meta property="og:image" content="https://theme.zdassets.com/theme_assets/2032116/f1389e984f800816651fd6fe296b32ed4940983a.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VWO" />
+    <meta property="og:title" content="Using the VWO Insights Goals Dashboard" />
+    <meta property="og:description" content="The VWO Goals dashboard enables you to manage and track the progress of all your goals. To access the Goals dashboard, go to INSIGHTS &gt; Goals.
+
+Using the Goals dashboard, you can typically do th..." />
+    <meta property="og:url" content="https://help.vwo.com/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard" />
+    <link rel="canonical" href="https://help.vwo.com/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard" />
+    <link rel="alternate" hreflang="en" href="https://help.vwo.com/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard" />
+
+    <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-1a1175db35230dfa282e711364a74c60.css" id="stylesheet" />
+    <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+    <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/theming_v1_support-e05586b61178dcde2a13a3d323525a18.css" />
+    <link rel="stylesheet" type="text/css" href="//p25.zdassets.com/hc/theming_assets/2032116/114094514233/style.css?digest=10889904415001">
+
+    <link rel="shortcut icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/2032116/2a5fb5fd37836477b8b979fc6b06502af8811efd.png" />
+
+    <script src="//static.zdassets.com/hc/assets/jquery-09d07e20ce042ef10e301661ad1f316c.js"></script>
+
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Google Tag Manager -->
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWR4CB9');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript" src="//p25.zdassets.com/hc/theming_assets/2032116/114094514233/script.js?digest=10889904415001"></script>
+</head>
+<body class="">
+
+
+
+
+    <script>
+!function(){if(new URL(window.location).searchParams.get("iframe-view")){document.body.hidden=!0;var e=function(){for(var t,n=[".article-sidebar",".sub-nav","header","footer","body>footer","#article-comments",".article-relatives",".article-subscribe"],o=0;o<n.length;o++)(t=document.querySelector(n[o]))&&t.setAttribute("style","display: none");document.body.hidden=!1,document.removeEventListener("DOMContentLoaded",e)};document.addEventListener("DOMContentLoaded",e)}}();
+    </script>
+    <!-- Start VWO Async SmartCode -->
+    <script type='text/javascript'>
+window._vwo_code = window._vwo_code || (function(){
+var account_id=6,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+is_spa=1,
+hide_element='body',
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+window.settings_timer=setTimeout(function () {_vwo_code.finish() },settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+    </script>
+    <!-- End VWO Async SmartCode -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWR4CB9"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="bg-wrapper home-bg-wrapper">
+        <header class="header">
+            <div class="logo">
+                <a href="https://help.vwo.com/hc/en-us" style="display: flex;align-items: center;text-decoration: none;">
+                    <img src="//theme.zdassets.com/theme_assets/2032116/f1389e984f800816651fd6fe296b32ed4940983a.svg" alt="VWO Help Center home page">
+                    <span style="text-transform: uppercase;letter-spacing: 1px;font-weight: 800;margin-left: 10px;font-size: 20px;color: #333;text-decoration: none;">Knowledge Base</span>
+                </a>
+            </div>
+            <div class="header-form" id="js-header-form">
+                <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search" /></form>
+            </div>
+            <a class="header-button" href="https://vwo.com/free-trial/" target="_blank">Start Free trial</a>
+        </header>
+    </div>
+
+    <main role="main">
+        <div class="container-divider"></div>
+        <div class="container">
+            <nav class="sub-nav">
+                <ol class="breadcrumbs">
+
+                    <li title="VWO">
+
+                        <a href="/hc/en-us">VWO</a>
+
+                    </li>
+
+                    <li title="VWO Goals">
+
+                        <a href="/hc/en-us/categories/900000097783-VWO-Goals">VWO Goals</a>
+
+                    </li>
+
+                    <li title="VWO Insights Goals">
+
+                        <a href="/hc/en-us/sections/900000221966-VWO-Insights-Goals">VWO Insights Goals</a>
+
+                    </li>
+
+                </ol>
+
+                <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+                    <input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="900000097783" autocomplete="off" />
+                    <input type="search" name="query" id="query" placeholder="Search" aria-label="Search" />
+                </form>
+            </nav>
+            <div class="article-container" id="article-container">
+                <section class="article-sidebar">
+
+                    <section class="section-articles collapsible-sidebar">
+                        <h3 class="collapsible-sidebar-title sidenav-title">Articles in this section</h3>
+                        <ul>
+
+                            <li>
+                                <a href="/hc/en-us/articles/900001155266-Types-of-Conversion-Goals-in-VWO-Insights" class="sidenav-item ">Types of Conversion Goals in VWO Insights</a>
+                            </li>
+
+                            <li>
+                                <a href="/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard" class="sidenav-item current-article">Using the VWO Insights Goals Dashboard</a>
+                            </li>
+
+                            <li>
+                                <a href="/hc/en-us/articles/900001157243-How-to-Create-a-Goal-in-VWO-Insights-" class="sidenav-item ">How to Create a Goal in VWO Insights?</a>
+                            </li>
+
+                            <li>
+                                <a href="/hc/en-us/articles/360020625133-Interpreting-Goals-Report-in-VWO-Insights" class="sidenav-item ">Interpreting Goals Report in VWO Insights</a>
+                            </li>
+
+                        </ul>
+
+
+                    </section>
+
+                </section>
+
+                <article class="article">
+                    <header class="article-header">
+                        <h1 title="Using the VWO Insights Goals Dashboard" class="article-title">
+                            Editing Title Of This Knowledge Base Article
+
+                        </h1>
+
+                        <div class="article-author">
+
+                            <div class="avatar article-avatar">
+
+                                <img src="https://help.vwo.com/system/photos/900141381603/profile_image_386424131414_2032116.png" alt="" class="user-avatar" />
+                            </div>
+
+                            <div class="article-meta">
+
+
+                                Vaibhav Singh
+
+
+
+                                <ul class="meta-group">
+
+                                    <li class="meta-data">Updated</li>
+                                    <li class="meta-data"><time datetime="2021-05-27T06:13:41Z" title="2021-05-27T06:13:41Z" data-datetime="relative">May 27, 2021 06:13</time></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="article-social-media">
+
+                            <span>Share: </span>
+                            <div class="article-share">
+                                <ul class="share">
+                                    <li><a href="https://www.facebook.com/share.php?title=Using+the+VWO+Insights+Goals+Dashboard&u=https%3A%2F%2Fhelp.vwo.com%2Fhc%2Fen-us%2Farticles%2F360019494134-Using-the-VWO-Insights-Goals-Dashboard" class="share-facebook">Facebook</a></li>
+                                    <li><a href="https://twitter.com/share?lang=en&text=Using+the+VWO+Insights+Goals+Dashboard&url=https%3A%2F%2Fhelp.vwo.com%2Fhc%2Fen-us%2Farticles%2F360019494134-Using-the-VWO-Insights-Goals-Dashboard" class="share-twitter">Twitter</a></li>
+                                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=VWO&title=Using+the+VWO+Insights+Goals+Dashboard&url=https%3A%2F%2Fhelp.vwo.com%2Fhc%2Fen-us%2Farticles%2F360019494134-Using-the-VWO-Insights-Goals-Dashboard" class="share-linkedin">LinkedIn</a></li>
+                                </ul>
+
+                            </div>
+
+
+                            <a class="article-subscribe" title="Opens a sign-in dialog" rel="nofollow" role="button" data-auth-action="signin" aria-selected="false" href="/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard/subscription.html">Follow</a>
+
+                        </div>
+                    </header>
+
+                    <section class="article-info">
+                        <div class="article-content">
+                            <div class="article-body">
+                                <p><span style="font-weight: 400;">The VWO Goals dashboard enables you to manage and track the progress of all your goals. To access the Goals dashboard, go to<strong> <span class="wysiwyg-color-cyan110">INSIGHTS</span> &gt; <span class="wysiwyg-color-cyan110">Goals</span></strong></span><span style="font-weight: 400;">.</span></p>
+                                <p><img src="goalDashboard.jpg" alt="goalDashboard.jpg" /></p>
+                                <h2><strong>Using the Goals dashboard, you can typically do the following:</strong></h2>
+                                <ul>
+                                    <li style="font-weight: 400;"><strong>Stick (Pin) your favorite goals</strong><span style="font-weight: 400;">: You can pin the most important or frequented goals to the dashboard so they remain at the top of the list. This allows you to access the most important goals without having to browse through the list of all goals.<img src="mceclip0.png" alt="mceclip0.png" /></span><span style="font-weight: 400;"><br /><br /></span></li>
+                                    <li style="font-weight: 400;">
+                                        <strong>Filter Goals</strong><span style="font-weight: 400;"><span style="font-weight: 400;">: </span></span><span>Using the panel on the right of the Goals dashboard, you can filter your goals by:</span><span><br /><br /></span>
+                                        <ul>
+                                            <li>
+                                                <span><strong>Goal Name:</strong>&nbsp;by entering the goal name or URL in the&nbsp;<span class="wysiwyg-color-cyan110"><strong>Search</strong></span>&nbsp;field, you can search for any goal that you have created in the past. Based on your search keyword, all the matching&nbsp;</span><span class="nd-word">results&nbsp;will&nbsp;appear in&nbsp;the&nbsp;list.&nbsp;<br /></span>
+                                                <div class="callout"><strong>NOTE:</strong><br />1. You can search based on goal name and URL.<br />2. The goals are searched regardless of their status. If you wish to restrict your search to a certain status, you should select it after searching for the goal. This can be done<br />using the <span><strong><span class="wysiwyg-color-cyan110">FILTER BY STATUS</span></strong> section.</span><br />3. <span class="nd-word"><span>Once&nbsp;</span></span><span class="nd-word"><span>the&nbsp;<strong><span class="wysiwyg-color-cyan110">S</span></strong></span></span><strong><span class="nd-word wysiwyg-color-cyan110">earch</span></strong><span class="nd-word"><span> field&nbsp;</span></span><span class="nd-word"><span>is&nbsp;</span></span><span class="nd-word"><span>cleared,&nbsp;</span></span><span class="nd-word"><span>the&nbsp;</span></span><span class="nd-word"><span>goal&nbsp;list </span></span><span class="nd-word"><span>will </span></span><span class="nd-word"><span>switch </span></span><span class="nd-word"><span>back to </span></span><span class="nd-word"><span>its&nbsp;</span></span><span class="nd-word"><span>default&nbsp;</span></span><span class="nd-word"><span>view</span></span><span class="nd-word"><span>.</span></span></div>
+                                            </li>
+                                            <li>
+                                                <span><strong>Status:</strong>&nbsp;using the filters present in the&nbsp;<strong><span class="wysiwyg-color-cyan110">FILTER BY STATUS</span></strong>&nbsp;section, you can filter the goals list based on their status-&nbsp;<span class="wysiwyg-color-cyan110"><strong>Running</strong></span>,&nbsp;<span class="wysiwyg-color-cyan110"><strong>Drafts</strong></span>,&nbsp;<strong><span class="wysiwyg-color-cyan110">Paused</span></strong>,&nbsp;<strong><span class="wysiwyg-color-cyan110">Archived</span></strong>,&nbsp;<span class="wysiwyg-color-cyan110"><strong>Thrashed</strong></span>.</span><br />
+                                                <div class="callout"><strong>NOTE:<br /></strong>1. By default, the <span class="wysiwyg-color-cyan110"><strong>Running</strong></span> status is selected and all the goals that are currently running appear in the list.<br />2. If no goal is in running status, the <span class="wysiwyg-color-cyan110"><strong>Drafts</strong></span> and <span class="wysiwyg-color-cyan110"><strong>Paused</strong></span> status are also selected by default.<br />3. The <span class="wysiwyg-color-cyan110"><strong>Drafts</strong></span> status shows all the gaols that are not yet complete or are complete but not started.</div>
+                                            </li>
+                                            <li>
+                                                <span><strong>Label:</strong>&nbsp;if you have added a label to your goal, you can filter out the goals list based on the label. To do this, use the options present in the&nbsp;<span class="wysiwyg-color-cyan110"><strong>FILTER BY LABEL</strong></span>&nbsp;section.&nbsp;<br /></span>
+                                                <div class="callout"><span><strong>NOTE:</strong> If you have not added any label in your goal, the&nbsp;<span class="wysiwyg-color-cyan110"><strong>FILTER BY LABEL</strong></span> section is not shown.</span></div>
+                                            </li>
+                                        </ul>
+                                        <p><span></span><span>Additionally, using the panel on the right, you can also sort the goals by using the Sort dropdown. Goals can be sorted on the following criteria: Creation Time, Campaign Name, and&nbsp; Modification Time.</span></p>
+                                    </li>
+                                    <li style="font-weight: 400;"><span style="font-weight: 400;"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Create Goals</strong><span style="font-weight: 400;">: Click on the </span><span class="wysiwyg-color-cyan110"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">CREATE</strong></span><span style="font-weight: 400;"> button on the upper right corner of the screen. To learn about how to create new goals,&nbsp;<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">refer to <a href="https://help.vwo.com/hc/en-us/articles/900001157243" target="_blank" rel="noopener">How to Create a Goal in VWO Insights?</a></span></span><br /></span></li>
+                                </ul>
+                                <h2><strong>Working with Goal Configurations</strong></h2>
+                                <p><span style="font-weight: 400;">The goals dashboard shows all the goals that you have created in the<strong> <span class="wysiwyg-color-cyan110">INSIGHTS</span> &gt; <span class="wysiwyg-color-cyan110">Goals</span></strong></span><span style="font-weight: 400;">&nbsp;page.</span><span style="font-weight: 400;"> To edit or delete a goal, select the goal from the list of goals, and navigate to the </span><span class="wysiwyg-color-cyan110"><strong>SETTINGS</strong></span><span style="font-weight: 400;"> tab. The settings tab has the following two options:</span></p>
+                                <ol>
+                                    <li style="font-weight: 400;"><span style="font-weight: 400;">Using the </span><span class="wysiwyg-color-cyan110"><strong>AUDIENCE</strong></span><span style="font-weight: 400;"> section, you can edit the Audience URL.</span></li>
+                                    <li style="font-weight: 400;"><span style="font-weight: 400;">Using the </span><span class="wysiwyg-color-cyan110"><strong>CONVERSION</strong></span><span style="font-weight: 400;"> section, you can edit the Conversion URLs and the segmentation conditions.</span></li>
+                                </ol>
+                                <p><img src="goalConfigs.jpg" alt="goalConfigs.jpg" /></p>
+                                <h2><strong>Some More Options</strong></h2>
+                                <p><span style="font-weight: 400;">There are some more options that you have for your goals. To access them, click the ellipses icon<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> <span class="wysiwyg-font-size-large">(<strong>⋮</strong>)</span><span class="wysiwyg-font-size-large"><strong>&nbsp;</strong></span></span>present in the panel on the top right. The ellipses menus have the following options:</span></p>
+                                <ol>
+                                    <ul>
+                                        <li style="font-weight: 400;"><strong>Email</strong><span style="font-weight: 400;">: Use this option to email links for accessing the goal to other collaborators.</span></li>
+                                        <li style="font-weight: 400;"><strong>Print</strong><span style="font-weight: 400;">: Take a printout of the goal reports.</span></li>
+                                        <li style="font-weight: 400;"><strong>Clone</strong><span style="font-weight: 400;">: Replicate the goal when you have to create another similar goal. In situations where you need minimal changes to a goal, you can simply clone the goal and make the required changes to save time and effort. The cloned goal will have a new ID.</span></li>
+                                        <li style="font-weight: 400;"><strong>Archive</strong><span style="font-weight: 400;">: Remove the goal from the dashboard list but do not delete the goal. It will continue to exist but will not clutter your Goals dashboard and you can easily access it in the future if needed.</span></li>
+                                        <li style="font-weight: 400;"><strong>Trash</strong><span style="font-weight: 400;">: Remove the goal and move it to the temporary storage. Campaign data will be removed per your retention policy.</span></li>
+                                        <li style="font-weight: 400;"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Flush Data</strong><span style="font-weight: 400;"><span style="font-weight: 400;">: Clear all data collected for the goal reports. You can use this feature to make changes to an existing goal that already has some data.<br /></span></span> <span class="wysiwyg-color-pink120">This option wipes out all the data collected by your funnel.</span></li>
+                                    </ul>
+                                </ol>
+                            </div>
+
+
+
+
+                            <div class="article-attachments">
+                                <ul class="attachments">
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer>
+                        <div class="article-footer">
+
+                        </div>
+
+                        <div class="article-votes">
+                            <h3 class="article-votes-question">Was this article helpful?</h3>
+                            <div class="article-votes-controls" role='radiogroup'>
+                                <a class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="360019494134" data-upvote-count="0" data-vote-count="1" data-vote-sum="-1" data-vote-url="/hc/en-us/articles/360019494134/vote" data-value="null" data-label="0 out of 1 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="Yes" href="#"></a>
+                                <a class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="360019494134" data-upvote-count="0" data-vote-count="1" data-vote-sum="-1" data-vote-url="/hc/en-us/articles/360019494134/vote" data-value="null" data-label="0 out of 1 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="No" href="#"></a>
+                            </div>
+                            <small class="article-votes-count" hidden>
+                                <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="360019494134" data-upvote-count="0" data-vote-count="1" data-vote-sum="-1" data-vote-url="/hc/en-us/articles/360019494134/vote" data-value="null" data-label="0 out of 1 found this helpful">0 out of 1 found this helpful</span>
+                            </small>
+                        </div>
+
+
+
+                        <div class="article-return-to-top">
+                            <a href="#article-container">Return to top<span class="icon-arrow-up"></span></a>
+                        </div>
+                    </footer>
+
+                    <section class="article-relatives">
+
+                        <div data-recent-articles></div>
+
+
+
+                        <section class="related-articles">
+
+                            <h3 class="related-articles-title">Related articles</h3>
+
+                            <ul>
+
+                                <li>
+                                    <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCHvQP4zRADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCPaE1dJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJKL2hjL2VuLXVzL2FydGljbGVzLzkwMDAwMTE1NzI0My1Ib3ctdG8tQ3JlYXRlLWEtR29hbC1pbi1WV08tSW5zaWdodHMtBjsIVDoJcmFua2kG--55fae7eaf5590eb935345a6073b98dc28b784e65" rel="nofollow">How to Create a Goal in VWO Insights?</a>
+                                </li>
+
+                                <li>
+                                    <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCMLIP4zRADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCPaE1dJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJOL2hjL2VuLXVzL2FydGljbGVzLzkwMDAwMTE1NTI2Ni1UeXBlcy1vZi1Db252ZXJzaW9uLUdvYWxzLWluLVZXTy1JbnNpZ2h0cwY7CFQ6CXJhbmtpBw%3D%3D--c8a0f595ea1be54c380d5777717d3d8180eb200c" rel="nofollow">Types of Conversion Goals in VWO Insights</a>
+                                </li>
+
+                                <li>
+                                    <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCD25stNTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCPaE1dJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJNL2hjL2VuLXVzL2FydGljbGVzLzM2MDAzMzk5MDk3My1UeXBlcy1vZi1Db252ZXJzaW9uLUdvYWxzLWluLVZXTy1UZXN0aW5nBjsIVDoJcmFua2kI--af3cc6fe83adbb2d1e09a81edfd91b28096f8f63" rel="nofollow">Types of Conversion Goals in VWO Testing</a>
+                                </li>
+
+                                <li>
+                                    <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCCnO89JTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCPaE1dJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJWL2hjL2VuLXVzL2FydGljbGVzLzM2MDAyMTQ3ODk1My1Ib3ctdG8tSW1wbGVtZW50LWEtQ3VzdG9tLUNvbnZlcnNpb24tR29hbC1pbi1WV08tBjsIVDoJcmFua2kJ--5bdced2a23bb164f13f9e291fab7798bdaadc2b7" rel="nofollow">How to Implement a Custom Conversion Goal in VWO?</a>
+                                </li>
+
+                                <li>
+                                    <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCNkK7tJTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCPaE1dJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJLL2hjL2VuLXVzL2FydGljbGVzLzM2MDAyMTEwMTI3My1Ib3ctdG8tVHJhY2stQ2xpY2tzLW9uLUVsZW1lbnQtaW4tVldPLQY7CFQ6CXJhbmtpCg%3D%3D--8219807d60b8a8cf39f8e8395802ce6147d45fb3" rel="nofollow">How to Track Clicks on Element in VWO?</a>
+                                </li>
+
+                            </ul>
+                        </section>
+
+
+
+                    </section>
+
+                </article>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="js-modal modal" id="modal-form-experience" tabindex="-1" role="dialog">
+        <div class="js-modal-mask modal-mask"></div>
+        <div class="js-modal-box modal-content">
+            <button type="button" class="js-close-modal modal-close-btn" aria-label="Close modal" title="Close modal">
+                &#215;
+            </button>
+            <form id="js-custom-form" class="modal-form">
+                <h3>We're sorry to know about your experience. Please let us know what can we do to make this article more useful.</h3>
+                <div>
+                    <textarea placeholder="What were you looking for?" name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <span class="error-message">A value for this field is required.</span>
+                </div>
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <input placeholder="Your email address here" type="text" name="email" id="email">
+                    <span class="error-message">A value for this field must be valid email.</span>
+                </div>
+                <p>
+                    This allows us to keep you informed on the status of your feedback. When collecting this information, we adhere to the Privacy Policy outlined <a href="https://vwo.com/privacy-policy/" target="_blank">here</a>.
+                </p>
+                <button type="submit" class="form-button">Submit</button>
+                <button type="button" class="js-close-modal form-button--secondary">No thanks</button>
+            </form>
+
+            <div class="modal-form-thankyou-message">
+                <svg width="209" height="233" viewBox="0 0 209 233" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><filter x="-48.4%" y="-55%" width="196.8%" height="252%" filterUnits="objectBoundingBox" id="a"><feMorphology radius=".5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1" /><feOffset dy="12" in="shadowSpreadOuter1" result="shadowOffsetOuter1" /><feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1" /><feColorMatrix values="0 0 0 0 0.830572539 0 0 0 0 0.878841223 0 0 0 0 0.927109906 0 0 0 1 0" in="shadowBlurOuter1" /></filter><path d="M87.877 57.255H1.997A2.002 2.002 0 010 55.253V2.002C.001.897.895.002 1.997 0h85.88a2.002 2.002 0 011.998 2.002v53.251a2.002 2.002 0 01-1.998 2.002z" id="b" /></defs><g fill="none" fill-rule="evenodd"><rect fill="#FFF" width="156" height="171" rx="2" /><path d="M153.386 170.965H1.997A2 2 0 010 168.963V2.002A2 2 0 011.997 0h151.39a2 2 0 011.996 2.002v166.961a2 2 0 01-1.997 2.002zM1.997.801A1.2 1.2 0 00.8 2v166.962a1.2 1.2 0 001.198 1.201h151.39a1.2 1.2 0 001.197-1.2V2.001A1.2 1.2 0 00153.386.8H1.997z" fill="#3F3D56" fill-rule="nonzero" /><g fill="#E9EBF4" fill-rule="nonzero"><path d="M136.234 19.603H18.797A1.8 1.8 0 0117 17.802 1.8 1.8 0 0118.797 16h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM107.873 32.015H18.797A1.8 1.8 0 0117 30.214a1.8 1.8 0 011.797-1.802h89.076a1.8 1.8 0 011.798 1.802 1.8 1.8 0 01-1.798 1.801zM136.234 44.427H18.797A1.8 1.8 0 0117 42.626a1.8 1.8 0 011.797-1.802h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM107.873 56.84H18.797A1.8 1.8 0 0117 55.037a1.8 1.8 0 011.797-1.802h89.076a1.8 1.8 0 011.798 1.802 1.8 1.8 0 01-1.798 1.801zM136.234 69.251H18.797A1.8 1.8 0 0117 67.45a1.8 1.8 0 011.797-1.802h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM136.234 81.663H18.797A1.8 1.8 0 0117 79.862a1.8 1.8 0 011.797-1.802h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM136.234 93.603H18.797A1.8 1.8 0 0117 91.802 1.8 1.8 0 0118.797 90h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM107.873 106.015H18.797A1.8 1.8 0 0117 104.214a1.8 1.8 0 011.797-1.802h89.076a1.8 1.8 0 011.798 1.802 1.8 1.8 0 01-1.798 1.801zM136.234 118.427H18.797A1.8 1.8 0 0117 116.626a1.8 1.8 0 011.797-1.802h117.437a1.8 1.8 0 011.797 1.802 1.8 1.8 0 01-1.797 1.801zM107.873 130.84H18.797A1.8 1.8 0 0117 129.037a1.8 1.8 0 011.797-1.802h89.076a1.8 1.8 0 011.798 1.802 1.8 1.8 0 01-1.798 1.801z" /></g><g transform="translate(93.836 138)"><use fill="#000" filter="url(#a)" xlink:href="#b" /><use fill="#47B178" xlink:href="#b" /></g><g fill="#FFF" fill-rule="nonzero"><path d="M169.237 164.603h-61.28c-1.171 0-2.121-.806-2.121-1.801 0-.995.95-1.802 2.121-1.802h61.28c1.172 0 2.122.807 2.122 1.802s-.95 1.801-2.122 1.801zM169.237 155.603h-61.28c-1.171 0-2.121-.806-2.121-1.801 0-.995.95-1.802 2.121-1.802h61.28c1.172 0 2.122.807 2.122 1.802s-.95 1.801-2.122 1.801zM159.561 173.015h-51.927a1.8 1.8 0 01-1.798-1.801 1.8 1.8 0 011.798-1.802h51.927a1.8 1.8 0 011.798 1.802 1.8 1.8 0 01-1.798 1.801zM130.532 182.015h-23.87c-.456 0-.826-.806-.826-1.801 0-.995.37-1.802.826-1.802h23.87c.457 0 .827.807.827 1.802s-.37 1.801-.827 1.801z" /></g></g></svg>
+                <h3>Thank you for your feedback.</h3>
+            </div>
+            <div class="modal-form-error-message">
+                There is some technical error. Please try after some time or contact us at <a href="mailto:support@vwo.com">support@vwo.com</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="Bgc(#fafafa)">
+        <div class="Maw(1200px) M(a) Px(16px) Pt(100px) Pb(50px)">
+
+            <div class="D(f)--md print-hide Mb(30px)--md Mb(70px)">
+                <div class="W(2/12)--lg Mb(40px) Mb(0)--md Px(10px) Bxz(bb) Fxg(1)">
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">Products</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/testing/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Testing</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/insights/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Insights</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/fullstack/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO FullStack</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/engage/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Engage</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/plan/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Plan</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/services/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Services</a></li>
+                    </ul>
+                </div>
+                <div class="Mb(40px) Mb(0)--md Px(10px) Bxz(bb) Fxg(1)">
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">Compare</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(40px) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/compare/optimizely/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO vs. Optimizely</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/compare/google-optimize/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO vs. Google Optimize</a></li>
+                    </ul>
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">Popular Guides</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/conversion-rate-optimization/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Conversion Rate Optimization</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/ab-testing/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">A/B Testing</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/push-notifications/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Push Notifications</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/website-personalization/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Website Personalization</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/website-heatmap/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Website Heatmaps</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/server-side-testing/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Server Side Testing</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/form-analytics/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Web Form Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="W(2/12)--lg Mb(40px) Mb(0)--md Px(10px) Bxz(bb) Fxg(1)">
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">Resources</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/blog/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Blog</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/success-stories/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Success Stories</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/ebooks/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">eBooks</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/webinars/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Webinars</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/glossary/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="Mb(40px) Mb(0)--md Px(10px) Bxz(bb) Fxg(1)">
+                    <div class="Mb(40px)">
+                        <h4 class="M(0) Tt(u) Fz($font-size-14)">Get Help</h4>
+                        <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                            <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://help.vwo.com/hc/en-us" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Knowledge Base</a></li>
+                        </ul>
+                    </div>
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">Free Tools</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/tools/ab-test-siginficance-calculator/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">A/B Testing Significance Calculator</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/tools/ab-test-duration-calculator/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">A/B Testing Duration Calculator</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/tools/push-notification-roi-calculator/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Web Push ROI Calculator</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="http://landingpageanalyzer.io" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Landing Page Analyzer</a></li>
+                    </ul>
+                </div>
+                <div class="Mb(30px) Mb(0)--md Px(10px)">
+                    <h4 class="M(0) Tt(u) Fz($font-size-14)">About Us</h4>
+                    <ul class="D(b)--md D(f) Flw(w) List(n) Mt(10px) Mb(0) P(0) Fz($font-size-14)">
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/about/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Our Company</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://wingify.com/careers/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Careers</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/media-kit/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Media Kit</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/partners/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">VWO Partners</a></li>
+                        <li class="Mb(6px) D(f) Ai(c) Cnt(noq)::a D(n)::a--md D(n):lc::a D(if)::a W(1px)::a H(12px)::a Mx(10px)::a Bgc(#5d616a)::a"><a href="https://vwo.com/contact-us/" class="Td(n) D(if) Ai(c) C(#5d616a) C($color-black):h Td(u):h">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="D(f) print-hide Fld(r)--md Fld(c) Ai(c) Jc(c) Jc(sb)--md Bdc(#eaeff4)--md Bdbs(s)--md Bdts(s)--md Bdbw(1px)--md Bdtw(1px) Py(20px)--md Mb(20px) Flw(w)">
+                <!-- Certificates icons -->
+                <div class="D(f) Ai(c) Flw(w) Mb(70px) Mb(0)--md Jc(c) Jc(fs)--md">
+                    <div class="Flxg(1)--md Flxs(0) W(a)--md W(4/12)--xs W(6/12) Mb(20px) Mb(0)--md Mend(50px)--md">
+                        <a href="https://vwo.com/compliance/gdpr/" class="D(b) Ta(c) Op(0.4) Op(1):h">
+                            <img src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/GDPR-ready.svg" alt="vwo gdpr ready badge" width="94">
+                        </a>
+                    </div>
+                    <div class="Flxg(1)--md Flxs(0) W(a)--md W(4/12)--xs W(6/12) Mb(20px) Mb(0)--md Mend(50px)--md">
+                        <a href="https://www.g2.com/vendors/wingify" class="D(b) Ta(c) Op(0.4) Op(1):h">
+                            <img src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/g2crowd.svg" alt="vwo g2crowd badge" width="130">
+                        </a>
+                    </div>
+                    <div class="Flxg(1)--md Flxs(0) W(a)--md W(4/12)--xs W(6/12) Mb(20px) Mb(0)--md Mend(50px)--md">
+                        <a href="https://www.trustradius.com/products/vwo/reviews" class="D(b) Ta(c) Op(0.4) Op(1):h">
+                            <picture><img src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/trustradius.png" alt="vwo trustradius badge" width="90"></picture>
+                        </a>
+                    </div>
+                    <div class="Flxg(1)--md Flxs(0) W(a)--md W(4/12)--xs W(6/12) Mb(20px) Mb(0)--md Mend(50px)--md">
+                        <a href="https://vwo.com/compliance/international-organization-standardization-certification/" class="D(b) Ta(c) Op(0.4) Op(1):h">
+                            <img src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/ISO.svg" alt="vwo iso certification badge" width="125">
+                        </a>
+                    </div>
+                    <div class="Flxg(1)--md Flxs(0) W(a)--md W(4/12)--xs W(6/12) Mb(20px) Mb(0)--md">
+                        <a href="https://vwo.com/compliance/british-standard-institution-certification/" class="D(b) Ta(c) Op(0.4) Op(1):h">
+                            <img src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/BS.svg" alt="vwo bs certification badge" width="110">
+                        </a>
+                    </div>
+                </div>
+                <!-- End Certificates icons -->
+                <!-- Social media icons -->
+                <div>
+                    <a href="https://www.linkedin.com/showcase/vwo/" target="_blank" class="D(ib) C(#a3a5aa) C($color-black):h" rel="nofollow noopener">
+                        <svg width="24" height="24">
+                            <use xlink:href="#icon-linkedin-type2"></use>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/VWO" target="_blank" class="Mx(24px) D(ib) C(#a3a5aa) C($color-black):h" rel="nofollow noopener">
+                        <svg width="24" height="24">
+                            <use xlink:href="#icon-twitter-type2"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/vwoofficial" target="_blank" class="D(ib) C(#a3a5aa) C($color-black):h" rel="nofollow noopener">
+                        <svg width="24" height="24">
+                            <use xlink:href="#icon-facebook-type2"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- End Social Media icons -->
+            </div>
+
+
+            <div class="D(f) Ai(c) Fld(r)--md Fld(c) Flw(w) Jc(sb) C(#5d616a)">
+                <div class="Ta(start)--md Ta(c)">
+                    <p class="C(#5d616a) D(ib)">
+                        <span>© </span>2020 Copyright
+                        <a href="https://wingify.com" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Wingify</a>. All rights reserved<br class="D(n)--md D(b)">
+                        <span class="D(ib)--md D(n)">|</span>
+                    </p>
+                    <div class="print-hide D(ib) Mstart(5px)">
+                        <a href="https://vwo.com/terms/" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Terms</a>
+                        <span>| </span>
+                        <a href="https://vwo.com/security/" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Security</a>
+                        <span>|</span>
+                        <a href="https://vwo.com/compliance/" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Compliance</a>
+                        <span>|</span>
+                        <a href="https://vwo.com/privacy-policy/" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Privacy</a>
+                        <span>|</span>
+                        <a href="https://vwo.com/opt-out/" class="Td(n) Td(u):h C(#5d616a) C($color-black):h">Opt-out</a>
+                    </div>
+                    <p></p>
+                </div>
+                <a href="https://wingify.com">
+                    <img alt="Wingify" src="https://static.wingify.com/gcp/wp-content/themes/vwo/images/new-website/logo_wingify.svg" width="94" height="28">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+// Update Footer
+$.ajax({
+    url: "https://vwo.com/wp-content/cache/zendesk-footer.js?v=" + Math.random() ,
+    dataType: "jsonp",
+});
+function replaceFooter(data){
+    data = data.split("</style>");
+    style = data[0].replace("<style>", "");
+    if(style){
+        var css = document.createElement('style');
+        css.type = 'text/css';
+        if (css.styleSheet)
+            css.styleSheet.cssText = style;
+        else
+            css.appendChild(document.createTextNode(style));
+        /* Append style to the tag name */
+        document.getElementsByTagName("head")[0].appendChild(css);
+    }
+    if(data[1] && typeof data[1] != "undefined") {
+        jQuery("body > footer").replaceWith(data[1]);
+    }
+}
+    </script>
+
+
+    <!-- / -->
+
+
+    <script src="//static.zdassets.com/hc/assets/en-us.eae8afc918a13192e738.js"></script>
+    <script src="https://vwo.zendesk.com/auth/v2/host.js" data-brand-id="114094514233" data-return-to="https://help.vwo.com/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard" data-theme="hc" data-locale="en-us" data-auth-origin="114094514233,true,true"></script>
+
+    <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"vwo","environment":"production","name":"VWO"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"settings":{},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCPaE1dJTADoKX21ldGF7CzoPYWNjb3VudF9pZGkD9AEfOhNoZWxwX2NlbnRlcl9pZGwrCBopisYaADoNYnJhbmRfaWRsKwg5IJCQGgA6DHVzZXJfaWQwOhN1c2VyX3JvbGVfbmFtZUkiDkFOT05ZTU9VUwY7BlQ7AEkiCmVuLXVzBjsGVA==--45059f9a5d1b3e8491025b0a8033c1773ca5d514","url":"https://help.vwo.com/hc/activity"},"current_record_id":"360019494134","current_record_url":"/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard","current_record_title":"Using the VWO Insights Goals Dashboard","search_results_count":null,"current_text_direction":"ltr","current_brand":{"id":114094514233,"account_id":2032116,"name":"VWO","active":true,"deleted_at":null,"created_at":"2017-08-31T11:28:12Z","updated_at":"2020-10-28T11:22:33Z","route_id":1973901,"signature_template":"{{agent.signature}}"},"current_brand_url":"https://vwo.zendesk.com","current_host_mapping":"help.vwo.com","current_path":"/hc/en-us/articles/360019494134-Using-the-VWO-Insights-Goals-Dashboard","authentication_domain":"https://vwo.zendesk.com","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":true,"mobile_device":true,"mobile_site_enabled":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","manage_content_url":"https://help.vwo.com/hc/en-us","arrange_content_url":"https://help.vwo.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://help.vwo.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://vwo.zendesk.com/knowledge/user_segments?brand_id=114094514233","has_gather":true,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":false,"has_user_segments":true,"has_answer_bot_web_form_enabled":false,"has_answer_bot_web_form_modal_v2":false,"has_assign_badge_modal_v2":true,"has_edit_user_profile_v2":false,"has_change_password_modal_v2":false,"has_garden_modals":false,"billing_url":"/access/return_to?return_to=https%3A%2F%2Fvwo.zendesk.com%2Fadmin%2Fbilling%2Fsubscription","is_account_owner":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd807091-preview","is_preview":false,"has_alternate_templates":false,"arrange_articles_url":"https://vwo.zendesk.com/knowledge/arrange?brand_id=114094514233","article_verification_url":"https://vwo.zendesk.com/knowledge/verification?brand_id=114094514233","has_article_verification":false,"guide_language_settings_url":"https://help.vwo.com/hc/admin/language_settings?locale=en-us","docs_importer_url":"https://vwo.zendesk.com/knowledge/import_articles?brand_id=114094514233","content_tags_url":"https://vwo.zendesk.com/knowledge/content_tags?brand_id=114094514233","community_badges_url":"https://vwo.zendesk.com/knowledge/community_badges?brand_id=114094514233","community_settings_url":"https://vwo.zendesk.com/knowledge/community_settings?brand_id=114094514233","gather_plan_state":"subscribed","search_settings_url":"https://vwo.zendesk.com/knowledge/search_settings?brand_id=114094514233","has_multibrand_search_in_plan":false,"theming_api_version":1,"theming_settings":{"brand_color":"#e20072","hero_banner_color":"#fff5f7","brand_text_color":"#ffffff","text_color":"#07003A","link_color":"#0072ef","background_color":"#ffffff","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"//theme.zdassets.com/theme_assets/2032116/f1389e984f800816651fd6fe296b32ed4940983a.svg","favicon":"//theme.zdassets.com/theme_assets/2032116/2a5fb5fd37836477b8b979fc6b06502af8811efd.png","homepage_background_image":"//theme.zdassets.com/theme_assets/2032116/65551bfd8d2acd8b7c764b54f4501604f2e817de.gif","community_background_image":"//theme.zdassets.com/theme_assets/2032116/ea0fc49e94c74884940bd530924916ea87035a5f.svg","community_image":"//theme.zdassets.com/theme_assets/2032116/e58c5e8c3ebf94cbbc4d3669def0adbd7d0ff479.svg","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":true,"show_articles_in_section":true,"show_article_author":true,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true},"has_pci_credit_card_custom_field":false,"current_brand_id":114094514233,"help_center_restricted":false,"current_brand_active":true,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"has_end_user_apps":true,"has_request_list_custom_fields":false,"has_docs_importer":false,"has_sunco_widget_kill_switch":false,"gather_user_image_upload_via_aus":false,"user_preferred_locale":"en-us","has_end_user_session_renewal":true,"has_reload_page_after_changing_password":true,"has_user_session_cookie_enabled":false,"version":"v21860"};
+    </script>
+
+    <script src="//static.zdassets.com/hc/assets/moment-4ef0d82f9fc65c8a28f659aa3430955f.js"></script>
+    <script src="//static.zdassets.com/hc/assets/hc_enduser-47b80ecb73fdb76aefce34bb84751800.js"></script>
+
+</body>
+</html>
